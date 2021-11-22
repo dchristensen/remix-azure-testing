@@ -1,5 +1,10 @@
 {
-  "routes": [],
+  "routes": [
+    {
+      "route": "/",
+      "rewrite": "/api/handler"
+    }
+  ],
   "navigationFallback": {
     "rewrite": "/api/handler"
   }
